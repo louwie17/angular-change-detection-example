@@ -1,0 +1,5 @@
+
+<app-input-field [value]="userForm.get('favoriteFood').value"></app-input-field> <button (click)="setValue()"></button>
+<app-textarea-field [formGroup]="userForm"></app-textarea-field>
+
+{{ userForm.value | json }}
